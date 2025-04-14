@@ -11,7 +11,7 @@ var ErrWrongRole = errors.New("wrong role")
 
 type DummyLoginUsecase struct{}
 
-func NewDumyyLoginUsecase() *DummyLoginUsecase {
+func NewDummyLoginUsecase() *DummyLoginUsecase {
 	return &DummyLoginUsecase{}
 }
 

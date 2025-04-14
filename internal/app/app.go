@@ -44,7 +44,7 @@ func New() *Application {
 	receptionRepo := postgresql.NewReceptionRepository(db)
 	receptionUsecase := usecase.NewReceptionUsecase(receptionRepo)
 
-	dummyLoginUsecase := usecase.NewDumyyLoginUsecase()
+	dummyLoginUsecase := usecase.NewDummyLoginUsecase()
 
 	productRepository := postgresql.NewProductRepository(db)
 	productUsecase := usecase.NewProductUsecase(productRepository)
